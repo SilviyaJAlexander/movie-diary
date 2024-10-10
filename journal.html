@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Diary - Journal</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet"> -->
+       <!-- TAILWIND CSS CDN INCLUDE -->
+  <script src="https://cdn.tailwindcss.com"></script>
+   
 </head>
-<body>
-    <header class="p-5 bg-gray-800 text-white">
-        <h1 class="text-3xl font-bold">My Movie Journal</h1>
-    </header>
-    
-    <!-- Navigation -->
-    <nav class="p-5 bg-gray-700 text-white">
-        <a href="index.html" class="text-lg">Go to Homepage</a>
-    </nav>
-
+<body>     
+          <!-- Navigation -->
+          <nav class="p-5 bg-gray-800 text-white">
+            <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-yellow-200">My Movie Journal</a>
+              <a href="index.html" class="text-lg">Go to Homepage</a>
+            </div>
+            </nav>
+          
     <main class="p-10">
         <!-- List of favorite movies and notes will go here -->
-    </main>
-
-    <script src="js/journal.js"></script>
+   
+    <div id="movie-list" class="container mx-auto px-2 py-3 flex flex-wrap justify-between">
+ 
+    </div>
+</main>
+    <script src="journal.js"></script>
 </body>
+
 </html>
